@@ -1,0 +1,25 @@
+.paragraph {
+  display: flex;
+  font-style: italic;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically (if needed) */
+  font-size: 45px;
+  line-height: 1;
+  padding: 40px;
+  max-width: 1280px;
+  color: #FD5E53;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  margin: 0 auto; /* Center the paragraph itself in the container */
+  font-family: "DM Sans", sans-serif;
+}
+
+.word {
+  position: relative;
+  margin-right: 12px; /* Space between words */
+  margin-top: 12px; /* Space above each word */
+}
+
+.shadow {
+  position: absolute;
+  opacity: 15%; /* Adjust shadow opacity */
+}

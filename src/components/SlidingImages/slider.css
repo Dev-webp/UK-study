@@ -1,0 +1,118 @@
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    color: #FD5E53;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.slidingContents {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    margin-top: 50px;
+    background: #191970;
+    padding: 20px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    cursor: grab;
+}
+
+.slider:active {
+    cursor: grabbing;
+}
+
+.slider::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+
+.course {
+    min-width: 25%;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECECEC;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.course:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.courseIcon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.courseTitle {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.courseDescription {
+    font-size: 1rem;
+    text-align: center;
+    color: #555;
+}
+
+/* Responsive styles for smaller devices */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2rem;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .course {
+        min-width: 80%; /* Make each course take more space */
+        height: auto;
+        padding: 15px;
+    }
+
+    .courseIcon { 
+        font-size: 2.5rem;
+    }
+
+    .courseTitle {
+        font-size: 1.25rem;
+    }
+
+    .courseDescription {
+        font-size: 0.9rem;
+    }
+
+    .slider {
+        gap: 5vw; /* Increase gap between courses */
+    }
+
+    .slidingContents {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        margin-top: 50px;
+        background: #191970;
+        padding: 1px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    
+}

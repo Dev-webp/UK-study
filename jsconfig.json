@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Enables JSX in TSX files
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "baseUrl": ".", // Helps TypeScript resolve modules starting from the root
+    "target": "es5", // or "es6" depending on your project setup
+    "module": "esnext", // Module system for React/Next.js projects
+    "strict": true, // Enables strict type checking
+    "moduleResolution": "node", // Allows resolution of modules installed via npm
+    "esModuleInterop": true, // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true // Speeds up type checking by skipping declaration files
+  },
+  "include": ["src/**/*"]
+}
+

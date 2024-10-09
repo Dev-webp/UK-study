@@ -1,0 +1,172 @@
+
+.description {
+    padding-left: 100px;
+    padding-right: 200px;
+    margin-top: 200px;
+    display: flex;
+    height: 70vh;
+    font-weight: 700;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description .body {
+    margin-left: 80px;
+    display: flex;
+    position: relative;
+}
+
+.description .body p {
+    margin: 0px;
+}
+
+.description .body p:nth-of-type(1) {
+    font-size: 40px;
+    
+    line-height: 1.2;
+    color: #FD5E53;
+    text-transform: uppercase;
+    font-family: "DM Sans", sans-serif;
+}
+
+.description .body p:nth-of-type(1) span {
+    margin-right: 3px;
+}
+
+
+.description .body p:nth-of-type(1) .mask {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.description .body p:nth-of-type(2) {
+    font-size: 17px;
+    width: 100%;
+    font-weight: 400;
+    color: #FD5E53;
+    letter-spacing: 1px;
+    margin-top: 3px;
+}
+
+.des {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.des h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FD5E53;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Updated to match class logoSlider */
+.logoSlider {
+    border: 1.2px solid hsla(0, 100%, 98%, 0.17);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 0 6px 20px rgba(255, 255, 255, 0.1);
+    background-color: #e4f9e4;
+    margin-top: 150px;
+    margin-left: 45px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.logoSlider h1 {
+    display: flex;
+    font-size: 38px;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin-left: 50px;
+    color: #0f0f0f;
+    text-transform: uppercase;
+}
+
+/* Updated to match class logoContainer */
+.logoSlider .logoContainer {
+    margin-top: 60px;
+    display: flex;
+    animation: slide 40s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.logoItem {
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logoImage {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+/* Default styling for larger devices (no changes) */
+
+/* Mobile styling for small devices */
+@media (max-width: 768px) {
+    .description {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+        height: auto; /* Adjust the height to fit content */
+        font-weight: 600;
+    }
+
+    .description .body {
+        max-width: 100%; /* Make body flexible */
+        min-width: unset;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .description .body p:nth-of-type(1) {
+        font-size: 34px; /* Smaller text size */
+        text-align: center;
+        margin-right: 70px;
+    }
+
+    .description .body p:nth-of-type(2) {
+        display: none; /* Smaller font for description */
+    }
+
+    .logoSlider {
+        margin-left: 1px;
+        margin-right: 15px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .logoSlider h1 {
+        font-size: 24px;
+        margin-left: 13px;
+        margin-right: 20px;
+    }
+
+    .logoItem {
+        min-width: 150px;
+        padding: 10px;
+    }
+
+    .logoImage {
+        max-width: 100%;
+        max-height: 100px; /* Smaller height for logos */
+    }
+}

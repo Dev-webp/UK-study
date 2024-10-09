@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Hide horizontal scrollbars only */
+    cursor: wait;
+    background: #191970; /* Dark blue background */
+    height: 100vh; /* Full viewport height */
+    color: #FD5E53; /* Text color */
+}
+
+
+    

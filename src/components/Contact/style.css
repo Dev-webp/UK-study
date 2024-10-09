@@ -1,0 +1,285 @@
+.contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    position: relative;
+}
+
+.contact .body {
+    padding-top: 200px;
+    width: 100%;
+    max-width: 1800px;
+    background-color: #000000;
+}
+
+.contact .body .title {
+    border-bottom: 1px solid rgb(134, 134, 134);
+    padding-bottom: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+}
+
+.contact .body .title span {
+    display: flex;
+    align-items: center;
+}
+
+.contact .body .title span .imageContainer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.contact .body .title span .imageContainer img {
+    object-fit: cover;
+}
+
+.contact .body .title span h2 {
+    margin-left: 0.3em;
+    color:antiquewhite;
+}
+
+.contact .body .title h2 {
+    font-size: 5vw;
+    margin: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style:italic;
+}
+
+.contact .body .title .buttonContainer {
+    position: absolute;
+    left: calc(100% - 100px);
+    top: calc(100% - 75px);
+}
+
+.contact .body .title .button {
+    width: 180px;
+    height: 180px;
+    background-color: #e0dfdf;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contact .body .title .button p {
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 500;
+    z-index: 2;
+    position: relative;
+    font-style: italic;
+}
+
+.contact .body .title svg {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    color: #e0dfdf;
+}
+
+.contact .body .nav {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-style: italic;
+}
+
+.contact .body .contactSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-style: italic;
+}
+
+.contact .body .contactSection .mailSection,
+.contact .body .contactSection .socialSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact .body .contactSection .mailSection h3,
+.contact .body .contactSection .socialSection h3 {
+    color: grey;
+    font-weight: 300;
+}
+
+.contact .body .contactSection .mailSection a,
+.contact .body .contactSection .socialSection a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact .body .contactSection .mailSection a:hover,
+.contact .body .contactSection .socialSection a:hover {
+    color: rgb(224, 247, 249);
+}
+
+.contact .body .contactSection .socialSection {
+    align-items: flex-end;
+}
+
+.contact .body .contactSection .socialSection .socialIcons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact .body .contactSection .socialSection .icon {
+    font-size: 25px;
+    color: white;
+}
+
+.contact .body .contactSection .socialSection .icon:hover {
+    color: rgb(255, 140, 0);
+}
+
+.contact .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contact .info div {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.contact .info div p,
+.contact .info div h3 {
+    margin: 0px;
+    padding: 2.5px;
+    cursor: pointer;
+}
+
+.contact .info div p::after {
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin-top: 2px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.2s linear;
+}
+
+.contact .info div p:hover::after {
+    width: 100%;
+}
+
+.contact .info div span {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact .info div h3 {
+    color: grey;
+    cursor: default;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .contact .body {
+        padding-top: 100px;
+    }
+
+    .contact .body .title {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contact .body .title span .imageContainer {
+        width: 150px;
+        height: 100px;
+        position: relative;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .contact .body .nav, 
+    .contact .body .contactSection {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
+
+    .contact .body .nav {
+        gap: 10px;
+    }
+
+    .contact .body .contactSection {
+        margin-top: 20px;
+    }
+
+    .contact .body .title h2 {
+        font-size: 7vw;
+    }
+
+    .contact .body .title .button {
+        display: none;
+    }
+
+    .contact .body .title .button p {
+        font-size: 14px;
+    }
+    
+}
+
+/* For devices with screen width less than 480px (mobile devices) */
+@media (max-width: 480px) {
+    .contact .body {
+        padding-top: 50px;
+    }
+
+    .contact .body .title h2 {
+        font-size: 8vw;
+    }
+
+
+    .contact .body .contactSection .mailSection{
+        display: none;
+    }
+
+    .contact .body .title .button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contact .body .title .button p {
+        font-size: 12px;
+    }
+
+    .contact .body .nav,
+    .contact .body .contactSection {
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact .body .contactSection .socialSection .icon {
+        font-size: 20px;
+        color: white;
+    }
+}
