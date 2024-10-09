@@ -29,7 +29,7 @@ export default function Index() {
                                 src={`/images/favicon.png`}
                             />
                         </div>
-                        <h2>Let's work together</h2>
+                        <h2>Lets work together</h2>
                     </span>
                     <motion.div className="buttonContainer">
                         <Rounded backgroundColor={"#A9A9A9"} className="button">
