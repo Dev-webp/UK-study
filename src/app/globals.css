@@ -1,11 +1,9 @@
 body {
     margin: 0;
-    overflow: hidden; /* Hide horizontal scrollbars only */
+    overflow-x: hidden; /* Hide only horizontal scrollbars */
+    overflow-y: auto; /* Enable vertical scrolling */
     cursor: wait;
     background: #191970; /* Dark blue background */
     height: 100vh; /* Full viewport height */
     color: #FD5E53; /* Text color */
 }
-
-
-    
