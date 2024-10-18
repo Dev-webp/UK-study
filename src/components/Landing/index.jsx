@@ -162,7 +162,7 @@ export default function Home() {
       <div className="sliderContainer">
         <div ref={slider} className="slider">
           <div className="formContainer">
-            <h1 className="centeredHeading">Let's Ignite Your<br /> UK Dreams!</h1>
+            <h1 className="centeredHeading">Let&apos;s Ignite Your<br /> UK Dreams!</h1>
             
             {isSubmitted && <p className="successMessage">Form submitted successfully!</p>}
             
