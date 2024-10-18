@@ -1,9 +1,27 @@
+/* General styling */
 body {
     margin: 0;
-    overflow-x: hidden; /* Hide only horizontal scrollbars */
-    overflow-y: auto; /* Enable vertical scrolling */
-    cursor: wait;
+    overflow-x: hidden; /* Hide horizontal scroll */
     background: #191970; /* Dark blue background */
-    height: 100vh; /* Full viewport height */
+    height: 100%; /* Full viewport height */
     color: #FD5E53; /* Text color */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
 }
+
+/* Enable vertical scrolling, but hide scrollbar */
+html {
+    overflow: hidden; /* Hide scrollbar */
+}
+
+body {
+    overflow-y: scroll; /* Enable vertical scroll */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+}
+
+/* Hide scrollbar for WebKit-based browsers like Chrome and Safari */
+body::-webkit-scrollbar {
+    width: 0px; /* Hide scrollbar */
+    background: transparent; /* Transparent background for hidden scrollbar */
+}
+
