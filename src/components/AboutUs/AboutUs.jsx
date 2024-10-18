@@ -86,7 +86,7 @@ const AboutUs = () => {
               whileInView={"onscreen"}
               variants={tagVariants}
               className='tag'>
-              <span className='why'>WHY </span>CHOOSE VJC
+              <span className='why'>Study in the UK with</span> VJC Overseas
             </motion.span>
             <motion.span
               initial="offscreen"
@@ -94,14 +94,14 @@ const AboutUs = () => {
               variants={titleVariants}
               className='title'>
               {" "}
-              There are many reasons to study in UK and being the top UK CONSULTANCIES IN INDIA <br />  we advise all students to make that next big step in your life and study in the UK.
+              With this visa, students aged 16 and above can pursue education in the UK’s top universities and colleges.<br/> From undergraduate to postgraduate programs, the UK offers endless opportunities to help you reach your academic and career goals.
             </motion.span>
             <motion.span
               initial="offscreen"
               whileInView={"onscreen"}
               variants={desVariants}
               className='title'>
-              UK is the home to over 130 Universities and provides a wide variety of courses to international students.
+              Are you dreaming of studying in the UK? VJC Overseas is here to guide you through every step of the UK Study Visa process.
             </motion.span>
           </div>
 

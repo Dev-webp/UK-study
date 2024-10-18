@@ -19,7 +19,6 @@
   overflow: hidden;
 }
 
-
 .landing .sliderContainer {
   position: absolute;
   left: 15%;
@@ -37,8 +36,9 @@
 .landing .centeredHeading {
   font-size: 35px;
   font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
-  background: #312f2f;
+  background: #424242;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -157,16 +157,15 @@
 .successMessage {
   color: #fb5252;
   font-size: 18px;
-  font-weight: bold; /* Adds space between the success message and the form */
+  font-weight:500; /* Adds space between the success message and the form */
   text-align: center;
+  font-style: italic;
 }
-
-
 
 
 .landing .description {
   position: absolute;
-  left: 66%; /* Adjust this value to move the description horizontally */
+  left: 59%; /* Adjust this value to move the description horizontally */
   bottom: 12%; /* Use top instead of bottom for vertical positioning */
   color: rgb(0, 0, 0);
   font-weight: 300;
@@ -174,16 +173,61 @@
   min-width: 500px; /* Minimum width for responsiveness */
 }
 
-.landing .description h1 {
-  font-size: 3rem; 
+.uk-container {
+  position: relative;
+  display: inline-block;
+  left:30%;
+}
+
+.uk {
+  z-index: 1;
+  font-size: 100px; 
   font-weight: 700; 
   color: #000000;
   font-family: "DM Sans", sans-serif;
+  
+  text-shadow: 
+               3px 3px 0 #358cfe,
+               6px 6px 0 #ff6c6c;
 }
 
+.top-image {
+  position: absolute;
+  top: -106%; /* Adjust this value based on how much overlap you want */
+  left: 42%;
+  transform: translateX(-50%);
+  z-index: 0; /* Image behind the text */
+  width: 250px; /* Adjust the size based on your needs */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+/* .landing .description .uk {
+  font-size: 100px; 
+  font-weight: 700; 
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px 0 #c6c6c6, 
+               6px 6px 0 #358cfe,
+               9px 9px 0 #ff6c6c;
+} */
+
+.landing .description .inside {
+  color: #424242;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 13%;
+  text-transform: uppercase;
+  margin-bottom: 6%;
+}
+
+
 .landing .description p {
+  letter-spacing: 1px;
   display: flex;
   align-items: center;
+  margin-left: 80px;
   color: #424242;
   font-size: 16px;
   font-family: "DM Sans", sans-serif;

@@ -162,7 +162,7 @@ export default function Home() {
       <div className="sliderContainer">
         <div ref={slider} className="slider">
           <div className="formContainer">
-            <h1 className="centeredHeading">UNLOCK YOUR FUTURE <br /> STUDY IN UK!</h1>
+            <h1 className="centeredHeading">Let's Ignite Your<br /> UK Dreams!</h1>
             
             {isSubmitted && <p className="successMessage">Form submitted successfully!</p>}
             
@@ -232,14 +232,18 @@ export default function Home() {
       </div>
 
       <div className="description">
-        <h1>WHY STUDY <br /> IN THE UK?</h1>
-        <p><PiAirplaneTakeoffFill /> Internationally Recognised Degree</p>
-        <p><PiAirplaneTakeoffFill /> Home to the World’s Best Universities</p>
-        <p><PiAirplaneTakeoffFill /> Affordable tuition fees & living costs</p>
-        <p><PiAirplaneTakeoffFill /> Safe & friendly environment</p>
-        <p><PiAirplaneTakeoffFill /> Work, Learn & Earn while you study</p>
-        <p><PiAirplaneTakeoffFill /> Teaching & Research Excellence</p>
-        <p><PiAirplaneTakeoffFill /> Post-study work visa opportunities</p>
+        
+      <div className="uk-container">
+    {/* <img src="/images/uk.png" alt="Top image" className="top-image" /> */}
+    <div className="uk">UK</div>
+  </div><div className="inside">Ambition Meets Opportunity</div>
+        <p><PiAirplaneTakeoffFill /> World-Class Education</p>
+        <p><PiAirplaneTakeoffFill /> Cultural Diversity</p>
+        <p><PiAirplaneTakeoffFill /> Shorter Courses</p>
+        <p><PiAirplaneTakeoffFill /> Research Opportunities</p>
+        <p><PiAirplaneTakeoffFill /> Scholarships and Financial Aid</p>
+        <p><PiAirplaneTakeoffFill /> Rich History and Culture</p>
+        <p><PiAirplaneTakeoffFill /> Post-Study Work Opportunities</p>
       </div>
     </motion.main>
   );

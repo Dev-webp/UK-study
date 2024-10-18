@@ -13,6 +13,7 @@ import University from '../components/University';
 import Contact from '../components/Contact';
 import { AiOutlineWhatsApp } from 'react-icons/ai';
 
+
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
