@@ -6,14 +6,14 @@ import { opacity, slideUp } from './anim';
 
 // const words = ["Hello", "Bonjour", "Ciao", "Olà", "やあ", "Hallå", "Guten tag", "Hallo"]
 const words = [
-    "UK Visa",
-    "Study Abroad",
-    "Your Future",
-    "UK Bound",
-    "Global Education",
-    "Visa Success",
-    "Dream Big",
-    "Go UK"
+    "UK VISA",
+    "STUDY ABROAD",
+    "YOUR FUTURE",
+    "UK BOUND",
+    "GLOBAL EDUCATION",
+    "VISA SUCCESS",
+    "DREAM BIG",
+    "GO UK"
 ];
 
 
