@@ -16,18 +16,18 @@
   }
   
   .od-head .tag {
-    color: #FD5E53;
+    color: #f5821f;
     font-size: 4rem;
     text-transform: uppercase;
   }
   
   .od-head .title {
-    color: #FD5E53;
+    color: #f5821f;
     font-size: 2rem;
   }
   
   .od-head .text {
-    color: #FD5E53;
+    color: #f5821f;
     text-align: center;
     max-width: 80%;
     font-size: 1.2rem;
@@ -75,7 +75,7 @@
   }
   
   .od-feature .feature-icon {
-    color: #FD5E53;
+    color: #f5821f;
     font-size: 2rem;
   }
   

@@ -111,7 +111,10 @@
   padding: 10px 40px;
   font-size: 16px;
   margin-left: 12rem;
-  background-color: #000000;
+  background-color: #f5821f
+
+
+  ;
   color: white;
   border: none;
   border-radius: 5px;
@@ -234,7 +237,7 @@
 }
 
 .landing .description svg {
-  color: #ff6b6b;
+  color: #f5821f;
   margin-right: 15px;
 }
 
@@ -282,13 +285,13 @@
 }
 
 .landing .nav .navLinks a:hover {
-  color: #ff6b6b; /* Same color as the icon in the description */
+  color: #f5821f; /* Same color as the icon in the description */
   transform: translateY(-2px); /* Subtle hover effect */
   font-weight: 700;
 }
 
 .landing .nav .contactButton {
-  background-color: #000000;
+  background-color: #f5821f;
   color: white;
   padding: 8px 18px;
   font-size: 14px;
@@ -299,7 +302,7 @@
 }
 
 .landing .nav .contactButton:hover {
-  background-color: #191970;
+  background-color: #f5821f;
 }
 
 

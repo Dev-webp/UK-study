@@ -26,10 +26,10 @@ export default function Index() {
                             <Image
                                 fill={true}
                                 alt={"image"}
-                                src={`/images/favicon.png`}
+                                src={`/images/Final Logo.png`}
                             />
                         </div>
-                        <h2>Lets work together</h2>
+                        <h2>Lets work together</h2> 
                     </span>
                     <motion.div className="buttonContainer">
                         <Rounded backgroundColor={"#A9A9A9"} className="button">
@@ -41,24 +41,24 @@ export default function Index() {
                 <div className="nav">
                     <Rounded>
                         <p>
-                            VJC OVERSEAS (Hyderabad)<br />
+                           <span className='con'> VJC OVERSEAS (Hyderabad) </span><br />
                             62/A, Ground Floor,<br />
                             Sundari Reddy Bhavan, Fresh Mart,<br />
                             Sanjeeva Reddy Nagar,<br />
                             Hyderabad, Telangana<br />
                             500038<br />
-                            CONTACT: +91 9160449000
+                            <span className='con'>CONTACT: +91 9160449000</span>
                         </p>
                     </Rounded>
                     <Rounded>
                         <p>
-                            VJC OVERSEAS (Bangalore)<br />
+                           <span className='con'> VJC OVERSEAS (Bangalore) </span><br />
                             Raheja Arcade, 16 & 17,<br />
                             5th Block, Ground Floor,<br />
                             Koramangala,<br />
                             Bangalore, India<br />
                             560095<br />
-                            CONTACT: +91 8970667999
+                            <span className='con'>CONTACT: +91 8970667999</span>
                         </p>
                     </Rounded>
                 </div>

@@ -29,24 +29,24 @@
 }
 
 .contact .body .title span .imageContainer {
-    width: 100px;
+    width: 150px;
     height: 100px;
     position: relative;
-    border-radius: 50%;
-    overflow: hidden;
+    /* border-radius: 80%; */
+    /* overflow: hidden; */
 }
 
-.contact .body .title span .imageContainer img {
+/* .contact .body .title span .imageContainer img {
     object-fit: cover;
-}
+} */
 
 .contact .body .title span h2 {
     margin-left: 0.3em;
-    color:antiquewhite;
+    color:#f5821f;
 }
 
 .contact .body .title h2 {
-    font-size: 5vw;
+    font-size: 4.4vw;
     margin: 0px;
     font-weight: 600;
     text-transform: uppercase;
@@ -62,7 +62,7 @@
 .contact .body .title .button {
     width: 180px;
     height: 180px;
-    background-color: #e0dfdf;
+    background-color: #f5821f;
     color: black;
     border-radius: 50%;
     position: absolute;
@@ -85,7 +85,7 @@
     position: absolute;
     top: 100%;
     left: 100%;
-    color: #e0dfdf;
+    color: #f5821f;
 }
 
 .contact .body .nav {
@@ -95,6 +95,10 @@
     margin-left: 200px;
     margin-right: 200px;
     font-style: italic;
+}
+
+.contact .body .nav .con {
+    color:#f5821f;
 }
 
 .contact .body .contactSection {
@@ -121,7 +125,7 @@
 
 .contact .body .contactSection .mailSection a,
 .contact .body .contactSection .socialSection a {
-    color: white;
+    color: #f5821f;
     text-decoration: none;
     font-size: 16px;
 }
@@ -143,11 +147,11 @@
 
 .contact .body .contactSection .socialSection .icon {
     font-size: 25px;
-    color: white;
+    color: #f5821f;
 }
 
 .contact .body .contactSection .socialSection .icon:hover {
-    color: rgb(255, 140, 0);
+    color: rgb(255, 255, 255);
 }
 
 .contact .info {

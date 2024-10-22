@@ -24,7 +24,7 @@
     font-size: 40px;
     
     line-height: 1.2;
-    color: #FD5E53;
+    color: #f5821f;
     text-transform: uppercase;
     font-family: "DM Sans", sans-serif;
 }
@@ -44,7 +44,7 @@
     font-size: 17px;
     width: 100%;
     font-weight: 400;
-    color: #FD5E53;
+    color: #f5821f;
     letter-spacing: 1px;
     margin-top: 3px;
 }
@@ -58,7 +58,7 @@
 .des h1 {
     font-size: 48px;
     font-weight: bold;
-    color: #FD5E53;
+    color: #f5821f;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 1.2;

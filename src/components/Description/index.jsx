@@ -83,7 +83,7 @@ export default function Index() {
                         }
                     </p>
                     <motion.p variants={opacity} animate={isInView ? "open" : "closed"}> 
-                    At VJC Overseas, we are proud to partner with some of the most prestigious universities worldwide, providing you with a diverse range of academic options. These partnerships enable us to offer students access to top-tier education ranging from engineering, business, and medicine to the arts.
+                    At VJC Overseas, we are proud to partner with some of the most prestigious universities worldwide, providing you with a diverse range of academic options. These partnerships enable us to offer students access to top-tier education.
                     </motion.p>
                 </div>
 
