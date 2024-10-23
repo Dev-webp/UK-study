@@ -38,9 +38,9 @@ export default function Home() {
       </AnimatePresence>
       <Landing />
       <AboutUs />
-      <Description />
       <Testtesxt />
       <OurDiff/>
+      <Description />
       <SlidingImages />
       <University />
       <Contact />

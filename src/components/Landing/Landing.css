@@ -169,7 +169,7 @@
 .landing .description {
   position: absolute;
   left: 59%; /* Adjust this value to move the description horizontally */
-  bottom: 12%; /* Use top instead of bottom for vertical positioning */
+  bottom: 8%; /* Use top instead of bottom for vertical positioning */
   color: rgb(0, 0, 0);
   font-weight: 300;
   max-width: 1000px; /* Ensure the description doesn't exceed this width */
@@ -271,7 +271,7 @@
   display: flex;
   align-items: center;
   gap: 30px; /* Space between nav items */
-  margin-right: 120px;
+  margin-right: 50px;
   text-transform: uppercase;
 }
 
@@ -302,7 +302,7 @@
 }
 
 .landing .nav .contactButton:hover {
-  background-color: #f5821f;
+  background-color: #000000;
 }
 
 
@@ -341,6 +341,7 @@
 
   .landing .form .message {
     font-size: 12px; /* Adjust message font size if applicable */
+    width: 180%;
   }
 
   .landing .description {
@@ -367,7 +368,7 @@
     top: 25%;
   }
   .landing .nav .contactButton {
-    background-color: #000000;
+    background-color: #f5821f;
     color: white;
     padding: 5px 5px;
     font-size: 14px;

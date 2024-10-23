@@ -52,18 +52,18 @@ const OurDiff = () => {
               variants={tagVariants}
               initial="offscreen"
               whileInView="onscreen"
-              className='tag'>Consultation</motion.span>
+              className='tag'>BEST Consultation</motion.span>
             <motion.span
               initial="offscreen"
               whileInView="onscreen"
               variants={titleVariants}
-              className='title'>Study Visa Consultancy Services - VJC Overseas</motion.span>
+              className='title'>Visa Consultancy Services - VJC Overseas</motion.span>
             <motion.span
               initial="offscreen"
               whileInView="onscreen"
               variants={desVariants}
               className='text'>
-              At VJC Overseas, we specialize in offering expert consultancy services to help you secure your UK study visa with ease. Our dedicated team is here to guide you through every step of the process.
+             Discover why we are the most trusted visa consultants in India. Our team is ready to provide you with world-class services customized to your profile. Connect with VJC Overseas and take the first step towards a brighter future!
             </motion.span>
           </div>
 

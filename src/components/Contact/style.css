@@ -215,10 +215,9 @@
     }
 
     .contact .body .title span .imageContainer {
-        width: 150px;
-        height: 100px;
+        width: 180px;
+        height: 80px;
         position: relative;
-        border-radius: 50%;
         overflow: hidden;
     }
 
@@ -239,6 +238,7 @@
 
     .contact .body .title h2 {
         font-size: 7vw;
+        margin-right: 20px;
     }
 
     .contact .body .title .button {

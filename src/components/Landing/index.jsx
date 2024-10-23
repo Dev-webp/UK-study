@@ -149,10 +149,10 @@ export default function Home() {
           <Image src="/images/logo-2.png" alt="Logo 2" width={140} height={60} />
         </div>
         <div className="navLinks">
-          <a href="#" onClick={() => scrollToSection('about')}>About</a>
-          <a href="#" onClick={() => scrollToSection('pathway')}>Pathway</a>
+          <a href="#" onClick={() => scrollToSection('about')}>Eligilibity</a>
+          <a href="#" onClick={() => scrollToSection('pathway')}>Documents</a>
           <a href="#" onClick={() => scrollToSection('consult')}>Consultation</a>
-          <a href="#" onClick={() => scrollToSection('services')}>Services</a>
+          <a href="#" onClick={() => scrollToSection('services')}>Our Services</a>
         </div>
         <button className="contactButton" onClick={handleContactClick}>
           Contact
@@ -224,7 +224,7 @@ export default function Home() {
               
               <br/>
               <div>
-                <button type="submit">Submit</button>
+                <button type="submit">SUMBIT</button>
               </div>
             </form>
           </div>
@@ -243,7 +243,6 @@ export default function Home() {
         <p><PiAirplaneTakeoffFill /> Research Opportunities</p>
         <p><PiAirplaneTakeoffFill /> Scholarships and Financial Aid</p>
         <p><PiAirplaneTakeoffFill /> Rich History and Culture</p>
-        <p><PiAirplaneTakeoffFill /> Post-Study Work Opportunities</p>
       </div>
     </motion.main>
   );

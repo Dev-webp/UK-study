@@ -61,7 +61,7 @@ export default function Index() {
     }, []); // Empty dependency array to ensure this runs only once
 
     return (
-        <div id="pathway">
+        
             <div ref={description} className="description">
                 <div className="body">
                     <p>
@@ -83,13 +83,13 @@ export default function Index() {
                         }
                     </p>
                     <motion.p variants={opacity} animate={isInView ? "open" : "closed"}> 
-                    At VJC Overseas, we are proud to partner with some of the most prestigious universities worldwide, providing you with a diverse range of academic options. These partnerships enable us to offer students access to top-tier education.
+                    At VJC Overseas, we are your trusted partners in achieving your immigration dreams. Our dedicated team ensures a seamless journey, helping clients transform their lives through successful immigration.
                     </motion.p>
-                </div>
+                </div>  
 
                 {/* Image Slider */}
                 <div className="logoSlider" ref={logoContainerRef}>
-                    <h1>Partnered Universities for Your Academic Journey</h1>
+                    <h1>Partnered Universities <span className='mob'> for Your Academic Journey</span></h1>
                     <div className="logoContainer">
                         {/* Render logos three times for infinite scroll */}
                         {[...logos, ...logos, ...logos].map((logo, index) => (
@@ -101,6 +101,6 @@ export default function Index() {
 
                 </div>
             </div>
-        </div>
+        
     );
 }

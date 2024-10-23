@@ -4,30 +4,31 @@ import {  FaRegHandshake, FaUserGraduate, FaBookOpen, FaChalkboardTeacher, FaFil
 export const features = [
   {
     icon: <FaBookOpen />,  // Icon for "Comprehensive Visa Application Assistance"
-    title: "Comprehensive Visa Assistance",
+    title: "Travel Documentation ",
   }, 
   {
     icon: <FaFileAlt />,  // Icon for "Expert Consultation and Document Preparation"
-    title: "Expert Consultation and Document Preparation",
+    title: "CAS Documentation"
   },
 
   {
     icon: <FaRegHandshake />,  // Icon for "Transparent Guidance and Support"
-    title: "Transparent Guidance and Support",
+    title: "Financial Evidence",
   },
  
   {
     icon: <FaRegUser />,  // Icon for "Commitment to Excellence"
-    title: "Commitment to Excellence",
+    title: "Health Requirements",
   },
 
   {
     icon: <FaChalkboardTeacher />,  // Icon for "In-Depth Knowledge of UK Study Requirements"
-    title: "In-Depth Knowledge of UK Study Requirements",
+    title: "Consent Requirements",
+    des:"(if you’re under 18)"
   },
   {
     icon: <FaUserGraduate />,  // Icon for "Personalized Visa Solutions"
-    title: "Personalized Visa Solutions",
+    title: "Biometric Requirements",
   },
 
 ];
@@ -83,7 +84,7 @@ export const projects = [
           <li>Health Surcharges—60,000/- Approx</li>
       </ul>
     ),
-    src: "fee.jpg",
+    src: "1.png",
     link: "",
     // color: "#C2491D",
     color: "#9B9B9B"
@@ -101,13 +102,11 @@ export const projects = [
           <li>Support for References & SOP</li>
           <li>Pre-departure orientation/briefing</li>
           <li>University admits guarantee (100%)</li>
-          <li>Bank Loan / Savings / FD Assistance</li>
-          <li>Within one week to get the admission</li>
           
       </ul>
     ),
     
-    src: "service.jpg",
+    src: "2.png",
     link: "",
     // color: "#B62429",
     color: "#977F6D"
@@ -127,17 +126,17 @@ export const ourDiffFeatures = [
   {
     icon: <FaChalkboardTeacher size={68} />, // Expert Visa Application Guidance icon
     title: "Expert Visa Guidance",
-    des: "Navigate the complexities of the UK study visa process with personalized guidance from our experienced team.",
+    des: "Get easy support from our experienced team to navigate the UK study visa process.",
   },
   {
     icon: <FaRegClock size={68} />, // Fast & Reliable Processing icon
     title: "Fast & Reliable Processing",
-    des: "Get your UK study visa processed smoothly and quickly with our proven strategies, ensuring timely submission.",
+    des: "We use proven strategies to ensure your UK study visa is submitted on time.",
   },
   {
     icon: <FaGlobe size={68} />, // Global Reach & Support icon
     title: "Global Reach & Support",
-    des: "Our services help students from around the world secure their study visas, ensuring a seamless experience.",
+    des: "Our services assist students globally in securing their study visas easily.",
   },
 ];
 

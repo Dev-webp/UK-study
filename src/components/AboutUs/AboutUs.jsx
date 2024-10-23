@@ -86,7 +86,7 @@ const AboutUs = () => {
               whileInView={"onscreen"}
               variants={tagVariants}
               className='tag'>
-              <span className='why'>Study in the UK with</span> VJC Overseas
+              <span className='why'>UK Student Visa </span>
             </motion.span>
             <motion.span
               initial="offscreen"
@@ -94,31 +94,67 @@ const AboutUs = () => {
               variants={titleVariants}
               className='title'>
               {" "}
-              With this visa, students aged 16 and above can pursue education in the UK’s top universities and colleges.<br/> From undergraduate to postgraduate programs, the UK offers endless opportunities to help you reach your academic and career goals.
+              To apply for a UK visa, you need to be 16 or older and have an offer from a licensed student sponsor. Key UK visa requirements include having enough money to support yourself and demonstrating English language proficiency. 
             </motion.span>
             <motion.span
               initial="offscreen"
               whileInView={"onscreen"}
-              variants={desVariants}
+              variants={titleVariants}
               className='title'>
-              Are you dreaming of studying in the UK? VJC Overseas is here to guide you through every step of the UK Study Visa process.
+              You can apply for the visa up to 6 months before your course starts. The UK visa cost is £490, along with a healthcare surcharge based on your visa duration.
+            </motion.span>
+            <motion.span
+              initial="offscreen"
+              whileInView={"onscreen"}
+              variants={titleVariants}
+              className='title'>
+              After completing your studies, you may extend your UK visa or switch to a Graduate visa in the UK. If you're 16 or 17 and want to study at an independent school, consider the UK visa for independent school students.
             </motion.span>
           </div>
 
-          <div className='au-blocks'>
+          <motion.div
+  ref={supportRef}
+  initial="offscreen"
+  whileInView={"onscreen"}
+  variants={containerVariants(0.1)} // Apply the same transition variants
+  className='au-support'
+>
+  <div>
+    <motion.span
+      initial="offscreen"
+      whileInView={"onscreen"}
+      variants={titleVariants} // Title animation
+      className='t-title'>
+      Essential Steps for Studying in the UK
+    </motion.span>
+    <motion.span
+      initial="offscreen"
+      whileInView={"onscreen"}
+      variants={desVariants} // Description animation
+      className='des2'>
+      For Studying in the UK, you must have an unconditional offer from a licensed student sponsor. After receiving your offer, your education provider will issue a Confirmation of Acceptance for Studies (CAS), which is essential for your visa application.<br/><br/>
+      You can pursue various eligible courses, including full-time programs at RQF levels 3 to 8, part-time qualifications above degree level, and recognized foundation programs for postgraduate doctors and dentists.<br/><br/>
+      Additionally, students can enroll in English language courses at level B2 or higher. If you are researching sensitive topics at RQF level 7 or above, you may also need to obtain an Academic Technology Approval Scheme (ATAS) certificate.<br/><br/>
+      Be sure to apply for your visa within 6 months of receiving your CAS to ensure a smooth application process.
+    </motion.span>
+  </div>
+</motion.div>
+
+
+          <div className='au-blocks' id='pathway'>
             <div className='au-block'>
               <motion.span
                 initial="offscreen"
                 whileInView={"onscreen"}
                 variants={titleVariants}
-                className='sec-title'>Our Capabilities
+                className='sec-title'>Required Documentation
               </motion.span>
               <motion.span
                 initial="offscreen"
                 whileInView={"onscreen"}
                 variants={desVariants}
                 className='text'>
-                Our ideas, creativity & thoughtful executions
+                Necessary Documents You Need for Visa Application
               </motion.span>
               <div className='block-features'>
                 {
@@ -143,14 +179,14 @@ const AboutUs = () => {
                 initial="offscreen"
                 whileInView={"onscreen"}
                 variants={titleVariants}
-                className='sec-title'>Our Standards
+                className='sec-title'>Required Documentation
               </motion.span>
               <motion.span
                 initial="offscreen"
                 whileInView={"onscreen"}
                 variants={desVariants}
                 className='text'>
-                Ensuring a seamless and successful application experience
+                Necessary Documents You Need for Visa Application
               </motion.span>
               <div className='block-features'>
                 {
@@ -164,6 +200,7 @@ const AboutUs = () => {
                       key={i}>
                       <span>{feature.icon}</span>
                       <span>{feature.title}</span>
+                      {/* <span className='if'>{feature.des}</span> */}
                     </motion.div>
                   ))
                 }
@@ -171,23 +208,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div ref={supportRef} className='au-support'>
-            <div>
-              <span className='t-title'>Our Principles</span>
-              <span className='des2'>
-                At VJC Overseas, we redefine how students embark on their UK education journey by providing guidance, personalized support, and expert advice to make the application process smooth and successful.
-              </span>
-            </div>
-
-            <div>
-              <span className='text'>
-                We research, solve, analyze, and develop strategies to meet the unique needs of each student. Our primary goal is not just to assist our clients but to design a pathway for their educational success.
-              </span>
-              <span className='text'>
-                Our commitment extends beyond visa assistance. We offer continuous support, 24/7, ensuring students feel empowered and confident as they prepare for their future in the UK.
-              </span>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>

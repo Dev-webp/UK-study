@@ -32,7 +32,7 @@ export default function Index() {
                         <h2>Lets work together</h2> 
                     </span>
                     <motion.div className="buttonContainer">
-                        <Rounded backgroundColor={"#A9A9A9"} className="button">
+                        <Rounded backgroundColor={"#ffffff"} className="button">
                             <p>Get in touch</p>
                         </Rounded>
                     </motion.div>

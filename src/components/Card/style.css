@@ -42,7 +42,7 @@
   width: 200%;
   right: 10px;
   position: relative;
-  top: 15%;
+  top: 35%;
 }
 
 .cardContainer .card .body .description ul {
@@ -59,10 +59,10 @@
   margin-bottom: 650px;
 }
 
-.cardContainer .card .body .description .pass::first-letter {
+/* .cardContainer .card .body .description .pass::first-letter {
   font-size: 28px;
   font-family: 'Title';
-}
+} */
 
 .cardContainer .card .body .description span {
   display: flex;
@@ -129,7 +129,7 @@
   }
 
   .cardContainer .card .pass {
-    bottom: 100%;
+    bottom: 50%;
   }
 
   .cardContainer .card .body .description {
@@ -141,7 +141,7 @@
   }
 
   .cardContainer .card .body .description ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
 

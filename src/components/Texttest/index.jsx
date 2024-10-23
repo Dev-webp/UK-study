@@ -5,7 +5,7 @@ import Character from '../Text/Character';
 import './style.css'
 
 const paragraph = '"Are you considering studying in the UK? VJC Overseas is one of the BEST CONSULTANCY IN INDIA FOR UK."';
-const paragraph1 = '"VJC overseas is the best Overseas UK education consultants and experts in study abroad solutions. VJC has strong tie ups with UK universities being one of the top UK CONSULTANCIES IN INDIA and has placed en number of students in the UK."'
+const paragraph1 = '"VJC Overseas is the premier immigration consultant in Bangalore, committed to assisting students and professionals in realising their aspirations of studying and working in the UK. Our expert team offers tailored guidance and support to ensure a smooth immigration journey. Trust us to unlock your potential and pave the way for a successful future in the UK"'
 export default function Home() {
 
   const words = paragraph.split(" ")
@@ -18,7 +18,7 @@ export default function Home() {
         <Character paragraph={paragraph} />
         <div style={{height: "5vh"}}></div>
         <div style={{height: "5vh"}}></div>
-        <Word paragraph={paragraph1}/>
+        <Character paragraph={paragraph1}/>
         </div> 
         
     </main>

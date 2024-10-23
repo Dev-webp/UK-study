@@ -2,12 +2,15 @@
 .tag{
     text-transform: uppercasezzz;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
    font-size:4rem;
    font-weight: bold;
    color: #f5821f;
    font-family: "DM Sans", sans-serif;
+   text-transform: uppercase;
 }
+
+
 
 .title{
     color: #f5821f;
@@ -33,6 +36,7 @@
     line-height: 3rem;
     text-transform:uppercase;
     color: #0f0000;
+    margin-left: 90px;
 
 }
 
@@ -41,8 +45,15 @@
     font-size: large;
 }
 
-.des2{
+.des2 {
     color: #0f0000;
+    text-align: center; /* Centers the text horizontally */
+    display: flex;
+    justify-content: center; /* Centers horizontally inside the flex container */
+    align-items: center;     /* Centers vertically inside the flex container */
+    height: 100%;       /* Adjust based on the container's height */
+    line-height: 1.8;
+    font-size: large;
 }
 
 .text{
@@ -128,6 +139,10 @@
                 0 6px 20px rgba(0, 0, 0, 0.1); /* Larger outer shadow */
 }
 
+.block-feature .if {
+    font-size: small;
+}
+
 
  .au-block:nth-child(1) > .block-features >:nth-child(2)
 {
@@ -184,19 +199,33 @@
     .au-support{
         flex-direction: column;
     }
+
+    .au-block .sec-title {
+        font-size: 2.5rem;
+    }
+
+    .au-support .t-title {
+        font-size: 3rem;
+        margin-right: 68px;
+    }
+    .au-support .des2 {
+        font-size:small;
+        max-width: 300px;
+        margin-left: 60px;
+    }
     .tag{
         font-size:3rem;
         font-weight: bold;
-        color: #FD5E53;
+        color: #f5821f;
         font-family: "DM Sans", sans-serif;
      }
      .title{
-        color: #FD5E53;
+        color: #f5821f;
         font-size: 1rem;
         text-align: center;
     }
     .des{
-        color: #FD5E53;
+        color: #f5821f;
         font-size: 1rem;
         text-align: center;
     }
@@ -214,14 +243,14 @@
 
     .au-support{
         display: flex;
-        padding: 2rem;
+        padding: 3rem;
         box-shadow: var(--shadow);
         border-radius: 1rem;
         justify-content: space-between;
         align-items: center;
         margin-top: 2.5rem;
         background:#f4fff4;
-        width: 76%;
+        width: 60%;
       
     }
 
