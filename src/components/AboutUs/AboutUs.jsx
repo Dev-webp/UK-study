@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import { containerVariants, desVariants, tagVariants, titleVariants } from '../../animation';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { PiAirplaneTakeoffFill } from "react-icons/pi";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -127,28 +128,46 @@ const AboutUs = () => {
       className='t-title'>
       Essential Steps for Studying in the UK
     </motion.span>
-    <motion.span
-      initial="offscreen"
-      whileInView={"onscreen"}
-      variants={desVariants} // Description animation
-      className='des2'>
-      For Studying in the UK, you must have an unconditional offer from a licensed student sponsor. After receiving your offer, your education provider will issue a Confirmation of Acceptance for Studies (CAS), which is essential for your visa application.<br/><br/>
-      You can pursue various eligible courses, including full-time programs at RQF levels 3 to 8, part-time qualifications above degree level, and recognized foundation programs for postgraduate doctors and dentists.<br/><br/>
-      Additionally, students can enroll in English language courses at level B2 or higher. If you are researching sensitive topics at RQF level 7 or above, you may also need to obtain an Academic Technology Approval Scheme (ATAS) certificate.<br/><br/>
-      Be sure to apply for your visa within 6 months of receiving your CAS to ensure a smooth application process.
-    </motion.span>
+
+<motion.span
+  initial="offscreen"
+  whileInView={"onscreen"}
+  variants={desVariants} // Description animation
+  className='des2'>
+  <PiAirplaneTakeoffFill className="feature-icon" /> {/* Icon */}
+  For Studying in the UK, you must have an unconditional offer from a licensed student sponsor. After receiving your offer, your education provider will issue a Confirmation of Acceptance for Studies (CAS), which is essential for your visa application.
+</motion.span>
+
+<motion.span
+  initial="offscreen"
+  whileInView={"onscreen"}
+  variants={desVariants} // Description animation
+  className='des2'>
+  <PiAirplaneTakeoffFill className="feature-icon" /> {/* Icon */}
+  You can pursue various eligible courses, including full-time programs at RQF levels 3 to 8, part-time qualifications above degree level, and recognized foundation programs for postgraduate doctors and dentists.
+</motion.span>
+
+<motion.span
+  initial="offscreen"
+  whileInView={"onscreen"}
+  variants={desVariants} // Description animation
+  className='des2'>
+  <PiAirplaneTakeoffFill className="feature-icon" /> {/* Icon */}
+  Additionally, students can enroll in English language courses at level B2 or higher. If you are researching sensitive topics at RQF level 7 or above, you may also need to obtain an Academic Technology Approval Scheme (ATAS) certificate.
+</motion.span>
+
+
+
   </div>
 </motion.div>
-
-
-          <div className='au-blocks' id='pathway'>
-            <div className='au-block'>
+<div id='pathway' className='req'>
               <motion.span
                 initial="offscreen"
                 whileInView={"onscreen"}
                 variants={titleVariants}
                 className='sec-title'>Required Documentation
               </motion.span>
+              </div>
               <motion.span
                 initial="offscreen"
                 whileInView={"onscreen"}
@@ -156,6 +175,12 @@ const AboutUs = () => {
                 className='text'>
                 Necessary Documents You Need for Visa Application
               </motion.span>
+              
+          <div className='au-blocks' >
+          
+            <div className='au-block'>
+              
+              
               <div className='block-features'>
                 {
                   features.slice(0, 3).map((feature, i) => (
@@ -175,19 +200,19 @@ const AboutUs = () => {
             </div>
 
             <div className='au-block'>
-              <motion.span
+              {/* <motion.span
                 initial="offscreen"
                 whileInView={"onscreen"}
                 variants={titleVariants}
                 className='sec-title'>Required Documentation
-              </motion.span>
-              <motion.span
+              </motion.span> */}
+              {/* <motion.span
                 initial="offscreen"
                 whileInView={"onscreen"}
                 variants={desVariants}
                 className='text'>
                 Necessary Documents You Need for Visa Application
-              </motion.span>
+              </motion.span> */}
               <div className='block-features'>
                 {
                   features.slice(3, 6).map((feature, i) => (

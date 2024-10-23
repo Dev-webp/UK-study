@@ -23,7 +23,7 @@
   
   .od-head .title {
     color: #f5821f;
-    font-size: 2rem;
+    font-size: 2rem; 
   }
   
   .od-head .text {
@@ -71,7 +71,12 @@
   }
   
   .od-feature .sec-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: #000;
+  }
+
+  .od-feature .text{
+    color: #000;
   }
   
   .od-feature .feature-icon {

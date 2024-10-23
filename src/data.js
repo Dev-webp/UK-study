@@ -36,24 +36,24 @@ export const features = [
 
 
 export const projects = [
-  {
-    title: "Documents Required",
-    description: (
-        <ul>
-            <li>Educational documents (10th, 12th, Bachelors-PC, CMM, Individuals)</li>
-            <li>Experience certificates (if any)</li>
-            <li>IELTS/PTE/GRE score card (if any)</li>
-            <li>Passport bio pages</li>
-            <li>SOP (Required for Universities)</li>
-            <li>LORs (Required for Universities)</li>
-            <li>Updated resume</li>
-            <li>MOI</li>
-        </ul>
-    ),
-    src: "doc.jpg",
-    link: "",
-    color: "#9B9B9B"
-},
+//   {
+//     title: "Documents Required",
+//     description: (
+//         <ul>
+//             <li>Educational documents (10th, 12th, Bachelors-PC, CMM, Individuals)</li>
+//             <li>Experience certificates (if any)</li>
+//             <li>IELTS/PTE/GRE score card (if any)</li>
+//             <li>Passport bio pages</li>
+//             <li>SOP (Required for Universities)</li>
+//             <li>LORs (Required for Universities)</li>
+//             <li>Updated resume</li>
+//             <li>MOI</li>
+//         </ul>
+//     ),
+//     src: "doc.jpg",
+//     link: "",
+//     color: "#ffffff"
+// },
 
   {
     title: "Visa time period",
@@ -71,7 +71,7 @@ export const projects = [
     
     src: "time.jpg",
     link: "",
-    color: "#977F6D"
+    color: "#ffffff"
     // color: "#9B9B9B"
   },
   {
@@ -87,7 +87,7 @@ export const projects = [
     src: "1.png",
     link: "",
     // color: "#C2491D",
-    color: "#9B9B9B"
+    color: "#ffffff"
   },
   {
     title: "Our Services",
@@ -109,7 +109,7 @@ export const projects = [
     src: "2.png",
     link: "",
     // color: "#B62429",
-    color: "#977F6D"
+    color: "#ffffff"
   },
   // {
   //   title: "",
