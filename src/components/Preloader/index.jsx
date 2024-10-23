@@ -10,7 +10,7 @@ const words = [
     "STUDY ABROAD",
     "YOUR FUTURE",
     "UK BOUND",
-    "GLOBAL EDUCATION",
+    "EDUCATION",
     "VISA SUCCESS",
     "DREAM BIG",
     "GO UK"
