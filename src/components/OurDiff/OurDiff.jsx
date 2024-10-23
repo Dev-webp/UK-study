@@ -78,7 +78,7 @@ const OurDiff = () => {
                   className='od-feature'
                   ref={el => featureRefs.current[i] = el} // Store each feature in refs array
                 >
-                  <div className='feature-icon'>{feature.icon}</div>
+                  <div className='features-icon'>{feature.icon}</div>
                   <span className='sec-title'>{feature.title}</span>
                   <span className='text'>{feature.des}</span>
                 </motion.div>

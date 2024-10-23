@@ -217,18 +217,16 @@
         display: flex;
     }
 
-    .text {
-        color: #f5821f;
-    }
+ 
 
     .au-support .t-title {
         font-size: 3rem;
-        margin-right: 100px;
+        margin-right: 50px;
     }
     .au-support .des2 {
         font-size:small;
         max-width: 300px;
-        margin-left: 65px;
+        margin-left: 30px;
     }
     .tag{
         font-size:3rem;
@@ -253,7 +251,7 @@
     }
     
     .text{
-        color: #0f0000;
+        color: #f5821f;
         text-align: center;
         font-size: 1rem;
     }

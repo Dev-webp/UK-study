@@ -79,7 +79,7 @@
     color: #000;
   }
   
-  .od-feature .feature-icon {
+  .od-feature .features-icon {
     color: #f5821f;
     font-size: 2rem;
   }
@@ -101,6 +101,11 @@
     .od-head .title {
       font-size: 1.2rem;
     }
+
+    .od-feature .features-icon {
+      color: #f5821f;
+      font-size: 2rem;
+    }
   }
   
   @media (max-width: 590px) {
@@ -120,6 +125,10 @@
   
     .od-head .text {
       font-size: 1rem;
+    }
+    .od-feature .sec-title {
+      font-size: 1rem;
+      color: #000;
     }
   }
   
