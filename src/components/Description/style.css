@@ -21,7 +21,7 @@
 }
 
 .description .body p:nth-of-type(1) {
-    font-size: 40px;
+    font-size: 38px;
     
     line-height: 1.2;
     color: #f5821f;
@@ -84,7 +84,9 @@
     font-size: 38px;
     max-width: 1200px;
     min-width: 1200px;
-    margin-left: 26px;
+    margin-left: 18px;
+    margin-top: 10px;
+    letter-spacing: 0.1px;
     color: #0f0f0f;
     text-transform: uppercase;
 }
@@ -146,7 +148,6 @@
         font-size: 34px; /* Smaller text size */
         text-align: center;
         margin-right: 70px;
-        letter-spacing: 1px;
     }
 
     .description .body p:nth-of-type(2) {
@@ -164,7 +165,7 @@
         font-size: 23px;
         margin-left: 5px;
         margin-right: 20px;
-        letter-spacing:0.1cap;
+        letter-spacing:0.2cap;
     }
 
     .logoSlider h1 .mob{

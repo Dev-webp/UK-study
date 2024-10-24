@@ -66,7 +66,7 @@ export default function Index() {
                 <div className="body">
                     <p>
                         {
-                            phrase.split(" ").map((word, index) => {
+                            phrase.split(". ").map((word, index) => {
                                 return (
                                     <span key={index} className="mask">
                                         <motion.span 
