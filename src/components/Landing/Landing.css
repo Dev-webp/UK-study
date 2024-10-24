@@ -306,6 +306,12 @@
 }
 
 
+@media (max-width: 1100px) {
+  .landing .description {
+   display: none;
+  }
+}
+
 
 @media (max-width: 768px) {
   .landing .formContainer {

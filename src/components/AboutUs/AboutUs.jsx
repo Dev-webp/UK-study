@@ -160,7 +160,8 @@ const AboutUs = () => {
 
   </div>
 </motion.div>
-<div id='pathway' className='req'>
+<div id='pathway' ></div>
+<div className='req'>
               <motion.span
                 initial="offscreen"
                 whileInView={"onscreen"}
