@@ -109,7 +109,7 @@ const AboutUs = () => {
               whileInView={"onscreen"}
               variants={titleVariants}
               className='title'>
-                After completing your studies, you may extend your UK study visa or switch to a Graduate visa in the UK. If you're 16 or 17 and want to study at an independent school, consider the UK student visa for independent school students.
+                After completing your studies, you may extend your UK study visa or switch to a Graduate visa in the UK. If you&apos;re 16 or 17 and want to study at an independent school, consider the UK student visa for independent school students.
              </motion.span>
           </div>
 
