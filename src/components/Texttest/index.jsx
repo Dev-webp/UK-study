@@ -5,7 +5,7 @@ import Character from '../Text/Character';
 import './style.css'
 
 const paragraph = '"Are you considering studying in the UK? VJC Overseas is one of the BEST OVERSEAS EDUCATION CONSULTANCY In INDIA For UK."';
-const paragraph1 = '"VJC Overseas is the premier immigration consultant in Bangalore, committed to assisting students and professionals in realising their aspirations of studying and working in the UK. Our expert team offers tailored guidance and support to ensure a smooth immigration journey. Trust us to unlock your potential and pave the way for a successful future in the UK"'
+const paragraph1 = '"VJC Overseas Is The Trusted Immigration & Overseas Education Consultants In India. committed to assisting students and professionals in realising their aspirations of studying and working in the UK. Our expert team offers tailored guidance and support to ensure a smooth immigration journey. Trust us to unlock your potential and pave the way for a successful future in the UK"'
 export default function Home() {
 
   const words = paragraph.split(" ")

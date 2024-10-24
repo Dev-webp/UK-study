@@ -146,6 +146,7 @@
         font-size: 34px; /* Smaller text size */
         text-align: center;
         margin-right: 70px;
+        letter-spacing: 1px;
     }
 
     .description .body p:nth-of-type(2) {
@@ -163,6 +164,7 @@
         font-size: 23px;
         margin-left: 5px;
         margin-right: 20px;
+        letter-spacing:0.1cap;
     }
 
     .logoSlider h1 .mob{
