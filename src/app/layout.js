@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Uk Study Visa',
-  description: 'VJC Overseas',
+  title: 'Remarkable UK Study Visa: Fearless Steps To Take',
+  description: 'Get UK Student Visa - Discover essential details on UK study visa requirements, fees, and processing times for Indian students .CONTACT US FOR MORE DETAILS',
 }
 
 export default function RootLayout({ children }) {

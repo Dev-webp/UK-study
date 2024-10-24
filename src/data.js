@@ -71,7 +71,7 @@ export const projects = [
     
     src: "time.jpg",
     link: "",
-    color: "#ffffff"
+    color: "#f6f6f6"
     // color: "#9B9B9B"
   },
   {
@@ -87,7 +87,7 @@ export const projects = [
     src: "1.png",
     link: "",
     // color: "#C2491D",
-    color: "#ffffff"
+    color: "#f6f6f6"
   },
   {
     title: "Our Services",
@@ -109,7 +109,7 @@ export const projects = [
     src: "2.png",
     link: "",
     // color: "#B62429",
-    color: "#ffffff"
+    color: "#f6f6f6"
   },
   // {
   //   title: "",

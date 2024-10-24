@@ -95,22 +95,22 @@ const AboutUs = () => {
               variants={titleVariants}
               className='title'>
               {" "}
-              To apply for a UK visa, you need to be 16 or older and have an offer from a licensed student sponsor. Key UK visa requirements include having enough money to support yourself and demonstrating English language proficiency. 
+              To apply for a UK study visa, you need to be 16 or older and have an offer from a licensed student sponsor. Key UK study visa requirements include having enough money to support yourself and demonstrating English language proficiency.
             </motion.span>
             <motion.span
               initial="offscreen"
               whileInView={"onscreen"}
               variants={titleVariants}
               className='title'>
-              You can apply for the visa up to 6 months before your course starts. The UK visa cost is £490, along with a healthcare surcharge based on your visa duration.
-            </motion.span>
+                You can apply for the visa up to 6 months before your course starts. The UK study visa cost is £490, along with a healthcare surcharge based on your visa duration.
+             </motion.span>
             <motion.span
               initial="offscreen"
               whileInView={"onscreen"}
               variants={titleVariants}
               className='title'>
-              After completing your studies, you may extend your UK visa or switch to a Graduate visa in the UK. If you&apos;re 16 or 17 and want to study at an independent school, consider the UK visa for independent school students.
-            </motion.span>
+                After completing your studies, you may extend your UK study visa or switch to a Graduate visa in the UK. If you're 16 or 17 and want to study at an independent school, consider the UK student visa for independent school students.
+             </motion.span>
           </div>
 
           <motion.div

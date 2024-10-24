@@ -36,9 +36,9 @@
     text-align: center;
     line-height: 3rem;
     text-transform:uppercase;
-    color: #0f0000;
+    color: #FD5E53;
     margin-left: 40px;
-
+    letter-spacing:0.2cap;
 }
 
 .des{
@@ -61,7 +61,7 @@
 
 .feature-icon {
     margin-right: 0.5rem; /* Adds space between the icon and text */
-    color: #f5821f; /* Change color to match your theme */
+    color: #FD5E53; /* Change color to match your theme */
     font-size: 1.5rem; /* Adjust size as needed */
 }
 
@@ -226,7 +226,7 @@
     .au-support .des2 {
         font-size:small;
         max-width: 300px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .tag{
         font-size:3rem;

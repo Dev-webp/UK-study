@@ -52,12 +52,12 @@ const OurDiff = () => {
               variants={tagVariants}
               initial="offscreen"
               whileInView="onscreen"
-              className='tag'>BEST Consultation</motion.span>
+              className='tag'>BEST STUDY CONSULTANTS </motion.span>
             <motion.span
               initial="offscreen"
               whileInView="onscreen"
               variants={titleVariants}
-              className='title'>Visa Consultancy Services - VJC Overseas</motion.span>
+              className='title'>Overseas Education Consultancy - VJC Overseas</motion.span>
             <motion.span
               initial="offscreen"
               whileInView="onscreen"

@@ -137,6 +137,8 @@ export default function Home() {
     xPercent += 0.1 * direction;
   };
 
+  
+
   return (
     <motion.main initial="initial" animate="enter" className="landing">
       <div ref={background} className="backgroundImage">
@@ -207,6 +209,8 @@ export default function Home() {
                   placeholder={errors.phone ? errors.phone : "Phone Number"}
                   value={formData.phone}
                   onChange={handleChange}
+                  maxLength={10}
+                  minLength={10}
                   className={errors.phone ? 'errorInput' : ''}
                 />
               </div>
