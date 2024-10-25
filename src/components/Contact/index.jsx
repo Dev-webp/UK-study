@@ -77,19 +77,19 @@ export default function Index() {
                         <span>
                             <h3>Follow us on:</h3>
                             <div className="socialIcons">
-                                <a href="https://www.instagram.com/vjc_overseas_bangalore/?utm_source=qr&igsh=MXZzNXY3dGV1YXg1bw%3D%3D" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.instagram.com/vjc_overseas_bangalore/?utm_source=qr&igsh=MXZzNXY3dGV1YXg1bw%3D%3D" target="_blank" rel="noopener noreferrer"  aria-label="Visit our Instagram page">
                                     <FaInstagram className="icon" />
                                 </a>
-                                <a href="https://www.youtube.com/@vjcoverseas9434" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.youtube.com/@vjcoverseas9434" target="_blank" rel="noopener noreferrer" aria-label="Visit our YouTube channel">
                                     <FaYoutube className="icon" />
                                 </a>
-                                <a href="https://www.linkedin.com/company/vjc-overseas/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/company/vjc-overseas/" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn page">
                                     <FaLinkedinIn className="icon" />
                                 </a>
-                                <a href="https://twitter.com/vjcoverseas" target="_blank" rel="noopener noreferrer">
+                                <a href="https://twitter.com/vjcoverseas" target="_blank" rel="noopener noreferrer" aria-label="Visit our Twitter page">
                                     <FaXTwitter className="icon" />
                                 </a>
-                                <a href='https://www.facebook.com/VJCOVERSEAS/' target="_blank" rel="noopener noreferrer">
+                                <a href='https://www.facebook.com/VJCOVERSEAS/' target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
                                     <FaFacebook className='icon' />
                                 </a>
                             </div>
