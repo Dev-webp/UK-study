@@ -151,10 +151,10 @@ export default function Home() {
           <Image src="/images/logo-2.png" alt="Logo 2" width={140} height={60} />
         </div>
         <div className="navLinks">
-          <a href="#" onClick={() => scrollToSection('about')}>Eligilibity</a>
-          <a href="#" onClick={() => scrollToSection('pathway')}>Documents</a>
-          <a href="#" onClick={() => scrollToSection('consult')}>Consultation</a>
-          <a href="#" onClick={() => scrollToSection('services')}>Our Services</a>
+          <a href="#eligibility" onClick={() => scrollToSection('about')}>Eligibility</a>
+          <a href="#documents" onClick={() => scrollToSection('pathway')}>Documents</a>
+          <a href="#consultation" onClick={() => scrollToSection('consult')}>Consultation</a>
+          <a href="#services" onClick={() => scrollToSection('services')}>Our Services</a>
         </div>
         <button className="contactButton" onClick={handleContactClick}>
           Contact
