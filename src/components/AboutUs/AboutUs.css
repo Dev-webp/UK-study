@@ -36,7 +36,7 @@
     text-align: center;
     line-height: 3rem;
     text-transform:uppercase;
-    color: #FD5E53;
+    color: #f5821f;
     margin-left: 40px;
     letter-spacing:0.2cap;
 }
@@ -61,7 +61,7 @@
 
 .feature-icon {
     margin-right: 0.5rem; /* Adds space between the icon and text */
-    color: #FD5E53; /* Change color to match your theme */
+    color: #f5821f; /* Change color to match your theme */
     font-size: 1.5rem; /* Adjust size as needed */
 }
 
